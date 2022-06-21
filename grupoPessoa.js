@@ -17,5 +17,4 @@ grupoPessoa.push(
     new Pessoa(1.97, 'F'),
     new Pessoa(1.87, 'M')
 );
-
 module.exports = grupoPessoa;

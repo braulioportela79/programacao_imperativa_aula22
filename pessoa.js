@@ -2,7 +2,6 @@ let Pessoa = function (altura, sexo) {
     this.altura = altura;
     this.sexo = sexo;
 };
-
 Pessoa.mediaAlturaMulheres = obj => {
     let arrayMulheres = obj.filter(e => e.sexo == 'F');
     let alturaMulheres = arrayMulheres.map(e => e.altura);

@@ -12,4 +12,3 @@ pessoa.mediaAlturaMulheres(grupoPessoa);
 
 // o número de homens.
 pessoa.qtdHomens(grupoPessoa);
-
