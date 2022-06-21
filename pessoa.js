@@ -2,6 +2,7 @@ let Pessoa = function (altura, sexo) {
     this.altura = altura;
     this.sexo = sexo;
 };
+
 Pessoa.mediaAlturaMulheres = obj => {
     let arrayMulheres = obj.filter(e => e.sexo == 'F');
     let alturaMulheres = arrayMulheres.map(e => e.altura);
@@ -24,5 +25,6 @@ Pessoa.qtdHomens = obj => {
     let arrayHomens = obj.filter(e => e.sexo == 'M');
     console.log(`O número de homens é de ${arrayHomens.length}.`);
 };
+
 
 module.exports = Pessoa;
