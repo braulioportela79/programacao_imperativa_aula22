@@ -26,5 +26,4 @@ Pessoa.qtdHomens = obj => {
     console.log(`O número de homens é de ${arrayHomens.length}.`);
 };
 
-
 module.exports = Pessoa;
